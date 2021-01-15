@@ -2,7 +2,7 @@
 
 ## Le processus de boot sur Apple M1
 
-![Mac Silicon - Boot overview](images/Mac Silicon - Boot overview.png)
+<img src="../images/Mac Silicon - Boot overview.png" alt="Mac Silicon - Boot overview" style="zoom:67%;" />
 
 Vérification de la chaîne de confiance.
 
