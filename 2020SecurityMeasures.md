@@ -1,9 +1,15 @@
 # Security Measures
 
-## Write XOr Execute
+## Système
 
-## Kernel Integrity Protection
+### Write XOr Execute
 
-## Pointer authentication
+### Kernel Integrity Protection
 
-## Device isolation
+### Pointer authentication
+
+### Device isolation
+
+## Crypto
+
+### Chiffrement du disque par défaut
