@@ -148,51 +148,8 @@ $ diskutil info  disk1s1
 
 Le SSV est indiqué comme `Broken`, ce qui n'est évidemment pas le cas... Il s'agit d'un bug de `diskutil`.
 
-
-
-
-
 #### Sources
 
 - L'[article](https://developer.apple.com/news/?id=3xpv8r2m) sur le site d'Apple.
 - The Eclectic Light Company - [Big Sur’s Signed System Volume: added security protection](https://eclecticlight.co/2020/06/25/big-surs-signed-system-volume-added-security-protection/)
 - [Apple File System Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf)
-
-
-
-### 
-
- 
-
-Signed system Volume (SSV) permet de signer
-
-```
-$% diskutil list
-/dev/disk0 (internal):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                         500.3 GB   disk0
-   1:             Apple_APFS_ISC ⁨⁩                        524.3 MB   disk0s1
-   2:                 Apple_APFS ⁨Container disk3⁩         494.4 GB   disk0s2
-   3:        Apple_APFS_Recovery ⁨⁩                        5.4 GB     disk0s3
-
-/dev/disk3 (synthesized):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +494.4 GB   disk3
-                                 Physical Store disk0s2
-   1:                APFS Volume ⁨Macintosh HD⁩            15.1 GB    disk3s1
-   2:              APFS Snapshot ⁨com.apple.os.update-...⁩ 15.1 GB    disk3s1s1
-   3:                APFS Volume ⁨Preboot⁩                 305.0 MB   disk3s2
-   4:                APFS Volume ⁨Recovery⁩                1.1 GB     disk3s3
-   5:                APFS Volume ⁨Data⁩                    92.1 GB    disk3s5
-   6:                APFS Volume ⁨VM⁩                      2.1 GB     disk3s6
-```
-
-## Application
-
-### Gatekeeper
-#### Signature des applications
-
-#### Contrôle d'accès
-
-### XProtect
-
