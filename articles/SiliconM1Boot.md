@@ -28,11 +28,11 @@ Il peut alors lancer plusieurs d'exploitations, donc
 
 Recovery Mode est une instance de MacOS dédié au mode recovery. Il est stocké dans une partition dédiée, et permet, notamment, de changer des paramètres de sécurité ou encore d'obtenir une ligne de commande et d'accéder au réseau. En revanche, seules les applications signées par Apple peuvent être exécutée par le système.
 
-Recovery Mode est activé en appuyant longuement sur le bouton "Power" d'une machine Apple Silicon.
+Recovery Mode est activé en appuyant longuement sur le bouton "Power" d'une machine Apple Silicon. Ceci constitue un changement par rapport aux précédents matériel Apple, sur lesquels il fallait utiliser  (`Command`) + `R`.
 
 ### MacOS
 
-Le système d'exploitation est stockée sur le disque SSD.
+Une ou plusieurs instances de MacOS peuvent être chargée par le processus iBoot.
 
 ## Sources
 
