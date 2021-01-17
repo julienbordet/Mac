@@ -56,7 +56,7 @@ $ sudo bless --folder /[mountpath]/System/Library/CoreServices --bootefi --creat
 
 Néanmoins, le volume *System* n'est alors plus éligible à la vérification d'intégrité SSV : il n'est pas possible de revenir en arrière.
 
-### **2/ Est-il possible d'utiliser le SSV sur d'autres volumes que *System* **
+### **2/ Est-il possible d'utiliser le SSV sur d'autres volumes que *System* ? **
 
 Il semblerait que non. Le document **Apple File System Reference** indique que pour qu'un volume soit doté d'un sceau, il faut que le rôle de ce dernier soit `APFS_VOL_ROLE_SYSTEM`, associé au répertoire racine du système. C'est d'ailleurs indiqué dans le nom : *Signed <u>System</u> Volume*.
 
